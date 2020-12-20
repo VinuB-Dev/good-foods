@@ -35,10 +35,10 @@ export default function App() {
       <h1>
         <span role="img" aria-label="food-bowl">
           🍲
-        </span>{" "}
+        </span>
         Good Foods
       </h1>
-      <p>My favourite foods</p>
+      <p>Have a look at my favourite foods</p>
       <div className="button-section">
         {foods.map((food) => (
           <button
